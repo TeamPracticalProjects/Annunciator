@@ -90,11 +90,14 @@
  *          is set to this value in setup();  (2) moved the list of clips to play out to
  *          an external header file.
  * 
+ * version 1.0.3 (current); by Jim Schrempp; 6/24/25
+ *     - fixed:  (1)  bug in button press handling when no previous clip has been play
+ * 
  *  (c) 2025, Team Practical Projects, Bob Glicksman, Jim Schrempp.  All rights reserved.
  * 
  */
 
-#define VERSION "1.0.2"
+#define VERSION "1.0.3"
 
 // NOTE:  MUST USE PARTICLE OS VERSION 3.0.0 OWING TO BUGS IN MINI MP3 PLAYER LIBRARY.
   //    Specifically, some functions have non-void return value declared but no return statement.
